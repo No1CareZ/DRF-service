@@ -1,7 +1,7 @@
 # DRF-service
 
 ## Description:
-Small service made using DRF and ClassViews, and docker.
+Small service made using DRF and PostgreSQL, and docker.
 
 ## Goals:
 1. Микросервис должен реализовывать минимум 4 запроса. Метод запроса (GET/POST/UPDATE/PATCH/DELETE) не важен.
