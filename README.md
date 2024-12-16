@@ -1,9 +1,4 @@
 # DRF-service
-## Main URLs
-1. api_main: http://127.0.0.1:8000
-2. primarchs: http://127.0.0.1:8000/primarchs/
-3. chapters: http://127.0.0.1:8000/chapters/
-4. swagger API: http://127.0.0.1:8000/api/schema/swagger/
 
 ## Description:
 Small service made using DRF and PostgreSQL, and docker.
@@ -20,15 +15,20 @@ Small service made using DRF and PostgreSQL, and docker.
 - при некорректных данных в запросе, микросервис не должен "падать", а возвращать http-код соответствующей ошибки и сопроводительное сообщение. 
 - ОПЦИОНАЛЬНО. Логирование ошибок и действий в микросервисе.
 9. ОПЦИОНАЛЬНО. Если кому-то хочется чуть глубже копнуть в микросервисную разработку, то рекомендую ознакомится со Swagger для документирования API. 
+
+## Main URLs
+1. api_main: http://127.0.0.1:8000
+2. primarchs: http://127.0.0.1:8000/primarchs/
+3. chapters: http://127.0.0.1:8000/chapters/
+4. swagger API: http://127.0.0.1:8000/api/schema/swagger/
+
 ## Tools:
 * `Django REST framework`
 * `Docker`
 * `PostgreSQL`
 
 ## Authors
-
 [Alex Survilov](https://github.com/No1CareZ)
 
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
