@@ -1,4 +1,9 @@
 # DRF-service
+## Main URLs
+1. api_main: http://127.0.0.1:8000
+2. primarchs: http://127.0.0.1:8000/primarchs/
+3. chapters: http://127.0.0.1:8000/chapters/
+4. swagger API: http://127.0.0.1:8000/api/schema/swagger/
 
 ## Description:
 Small service made using DRF and PostgreSQL, and docker.
